@@ -1,0 +1,19 @@
+{
+  "c2p2": {
+    "payment": {
+      "redirecting": "Mengalihkan ke 2C2P…",
+      "retry": "Coba lagi",
+      "noInvoice": "Faktur tidak ditemukan."
+    },
+    "success": {
+      "title": "Pembayaran diterima",
+      "message": "Pembayaran 2C2P Anda telah dikonfirmasi.",
+      "dashboard": "Kembali ke dashboard"
+    },
+    "cancel": {
+      "title": "Pembayaran dibatalkan",
+      "message": "Anda membatalkan pembayaran 2C2P — tidak ada biaya yang dikenakan.",
+      "retry": "Coba lagi"
+    }
+  }
+}

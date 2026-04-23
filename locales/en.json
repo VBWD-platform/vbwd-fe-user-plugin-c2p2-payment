@@ -1,0 +1,19 @@
+{
+  "c2p2": {
+    "payment": {
+      "redirecting": "Redirecting to 2C2P…",
+      "retry": "Retry",
+      "noInvoice": "No invoice specified."
+    },
+    "success": {
+      "title": "Payment received",
+      "message": "Your 2C2P payment has been confirmed.",
+      "dashboard": "Back to dashboard"
+    },
+    "cancel": {
+      "title": "Payment cancelled",
+      "message": "You cancelled the 2C2P checkout — no charge was made.",
+      "retry": "Try again"
+    }
+  }
+}

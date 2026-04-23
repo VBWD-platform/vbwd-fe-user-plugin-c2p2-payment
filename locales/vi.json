@@ -1,0 +1,19 @@
+{
+  "c2p2": {
+    "payment": {
+      "redirecting": "Đang chuyển hướng đến 2C2P…",
+      "retry": "Thử lại",
+      "noInvoice": "Không tìm thấy hóa đơn."
+    },
+    "success": {
+      "title": "Thanh toán thành công",
+      "message": "Thanh toán 2C2P của bạn đã được xác nhận.",
+      "dashboard": "Quay lại bảng điều khiển"
+    },
+    "cancel": {
+      "title": "Đã hủy thanh toán",
+      "message": "Bạn đã hủy thanh toán 2C2P — không có khoản phí nào được tính.",
+      "retry": "Thử lại"
+    }
+  }
+}
