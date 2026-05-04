@@ -1,15 +1,27 @@
 <template>
   <div class="c2p2-payment">
-    <div v-if="loading" class="c2p2-payment__loading">
+    <div
+      v-if="loading"
+      class="c2p2-payment__loading"
+    >
       <p>{{ $t('c2p2.payment.redirecting') }}</p>
     </div>
-    <div v-else-if="error" class="c2p2-payment__error">
+    <div
+      v-else-if="error"
+      class="c2p2-payment__error"
+    >
       <p>{{ error }}</p>
-      <button class="btn btn-primary" @click="createAndRedirect">
+      <button
+        class="btn btn-primary"
+        @click="createAndRedirect"
+      >
         {{ $t('c2p2.payment.retry') }}
       </button>
     </div>
-    <div v-else-if="!invoiceId" class="c2p2-payment__no-invoice">
+    <div
+      v-else-if="!invoiceId"
+      class="c2p2-payment__no-invoice"
+    >
       <p>{{ $t('c2p2.payment.noInvoice') }}</p>
     </div>
   </div>
