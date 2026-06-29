@@ -6,7 +6,7 @@ import id from './locales/id.json';
 
 export const c2p2PaymentPlugin: IPlugin = {
   name: 'c2p2-payment',
-  version: '26.6',
+  version: '26.6.1',
   description: '2C2P ASEAN payment processing — cards, QR, regional wallets',
   _active: false,
 
